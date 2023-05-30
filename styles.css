@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+html{
+	font-family: 'Oswald', sans-serif;
+	background-color: #FFF8E7;
+}
+
+#output {
+	font-size: 200%;
+}
+
+#fiveBabbles {
+	display: none;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+html, body, .container {
+	height: 100%;
+	margin: 0;
+}
+
+h1 {
+	font-size: 3rem;
+	background-color: #508DAA;
+	color: #F5F5F5;
+	padding: .8rem;
+	margin: 0;
+	text-align: center;
+}
+
+#myButton {
+	width: 300px;
+	height: 75pt;
+	font-size: 1.5rem;
+}
+
+#output {
+	text-align: center;
+	font-size: 4rem;
+	text-transform: capitalize;
+}
